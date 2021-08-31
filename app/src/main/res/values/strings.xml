@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlightApplication</string>
+
+    <string-array name="statu">
+
+        <item>Economy</item>
+        <item>Business</item>
+
+
+    </string-array>
+</resources>

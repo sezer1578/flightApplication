@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flightapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlightApplication">
+        <activity android:name=".Login_Page"></activity>
+        <activity android:name=".TicketDetailActivity" />
+        <activity android:name=".FinishPaymentActivity" />
+        <activity android:name=".ConfirmActivity" />
+        <activity android:name=".FlightDetails" />
+        <activity android:name=".AddAdmin" />
+        <activity android:name=".AddRoute" />
+        <activity android:name=".ProfilePage" />
+        <activity android:name=".UserHomePage" />
+        <activity android:name=".Register_Page" />
+        <activity android:name=".CreditCard" />
+        <activity android:name=".BankAccount" />
+        <activity android:name=".AdminPage" />
+        <activity android:name=".ChoosePayment" />
+        <activity android:name=".ViewRouteActivity" />
+        <activity android:name=".FlightActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
